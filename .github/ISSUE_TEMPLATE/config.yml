@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "📋 Quadro proPosing · Semana"
+    url: https://github.com/orgs/proposingapp/projects
+    about: "Antes de abrir, veja se o card já existe no quadro."

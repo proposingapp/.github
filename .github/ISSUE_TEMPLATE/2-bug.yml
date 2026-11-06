@@ -1,0 +1,35 @@
+name: "🐞 Bug"
+description: "Algo não funciona como deveria."
+title: "Bug: "
+labels: ["bug"]
+projects: ["proposingapp/1"]
+body:
+  - type: textarea
+    id: passos
+    attributes:
+      label: "Passos"
+      description: "O que você fez, em ordem."
+      placeholder: "1. Abri o app\n2. Escolhi a pose\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: "Esperado"
+      description: "O que deveria acontecer."
+    validations:
+      required: true
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: "Aconteceu"
+      description: "O que aconteceu de verdade. Print ou vídeo ajuda muito."
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: "Versão e máquina"
+      placeholder: "ex.: 0.1.2 · Windows 11 · webcam do notebook"
+    validations:
+      required: true

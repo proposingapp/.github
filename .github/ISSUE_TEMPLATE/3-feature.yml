@@ -1,0 +1,28 @@
+name: "✨ Feature"
+description: "Funcionalidade nova num app ou no site."
+title: "Feature: "
+labels: ["feature"]
+projects: ["proposingapp/1"]
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: "Objetivo"
+      description: "Em uma frase, o que muda para quem usa."
+    validations:
+      required: true
+  - type: textarea
+    id: criterio
+    attributes:
+      label: "Critério de aceite"
+      description: "Como a gente sabe que acabou."
+      placeholder: "- [ ] ...\n- [ ] ..."
+    validations:
+      required: true
+  - type: textarea
+    id: fora
+    attributes:
+      label: "Fora do escopo"
+      description: "O que não entra agora."
+    validations:
+      required: false

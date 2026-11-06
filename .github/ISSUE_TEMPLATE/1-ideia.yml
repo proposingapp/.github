@@ -1,0 +1,30 @@
+name: "💡 Ideia"
+description: "Ideia nova para a triagem da call semanal. Três campos e pronto."
+title: "Ideia: "
+labels: ["ideia"]
+projects: ["proposingapp/1"]
+body:
+  - type: markdown
+    attributes:
+      value: "Escreve do jeito que der. Na call, o time decide se entra no backlog, se espera ou se fica de fora."
+  - type: textarea
+    id: o-que
+    attributes:
+      label: "O quê"
+      description: "A ideia em poucas linhas."
+    validations:
+      required: true
+  - type: textarea
+    id: por-que
+    attributes:
+      label: "Por quê"
+      description: "Que problema resolve ou que ganho traz."
+    validations:
+      required: true
+  - type: input
+    id: pra-quem
+    attributes:
+      label: "Pra quem"
+      description: "Atleta, academia, o próprio time, o Instagram…"
+    validations:
+      required: false

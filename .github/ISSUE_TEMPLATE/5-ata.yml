@@ -1,0 +1,36 @@
+name: "📝 Ata da semana"
+description: "Registro da call semanal: entregas, travas, decisões e compromissos."
+title: "Semana 2026-S"
+projects: ["proposingapp/1"]
+body:
+  - type: markdown
+    attributes:
+      value: "Título no formato `Semana AAAA-SNN` (ex.: `Semana 2026-S46`). Feche a issue no fim da call."
+  - type: textarea
+    id: entregas
+    attributes:
+      label: "Entregas"
+      description: "O que foi para ✅ Feito desde a última call."
+    validations:
+      required: true
+  - type: textarea
+    id: travas
+    attributes:
+      label: "Travas"
+      description: "O que está parado e o que cada um precisa."
+    validations:
+      required: false
+  - type: textarea
+    id: decisoes
+    attributes:
+      label: "Decisões"
+      description: "Ideias aprovadas, estacionadas ou descartadas, e qualquer outra decisão."
+    validations:
+      required: false
+  - type: textarea
+    id: compromissos
+    attributes:
+      label: "Compromissos da semana"
+      description: "Quem pegou quais cards (ex.: Sabino → #12, #15)."
+    validations:
+      required: true

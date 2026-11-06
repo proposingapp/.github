@@ -1,0 +1,25 @@
+name: "📣 Tarefa (não é código)"
+description: "Redes, marca, comercial, jurídico ou financeiro."
+projects: ["proposingapp/1"]
+body:
+  - type: textarea
+    id: entregavel
+    attributes:
+      label: "Entregável"
+      description: "O que existe quando acabar: arte, post publicado, e-mail enviado, contato registrado."
+    validations:
+      required: true
+  - type: input
+    id: prazo
+    attributes:
+      label: "Prazo"
+      placeholder: "ex.: até a próxima call"
+    validations:
+      required: false
+  - type: input
+    id: aprovacao
+    attributes:
+      label: "Quem precisa aprovar"
+      placeholder: "ex.: Sabino, na call"
+    validations:
+      required: false
