@@ -1,7 +1,5 @@
 <img src="https://raw.githubusercontent.com/proposingapp/.github/main/profile/assets/banner-proposing.png" alt="proPosing: o seu computador vira o seu coach de pose" width="100%">
 
-### O seu computador vira o seu coach de pose.
-
 O **proPosing** treina posing de fisiculturismo com feedback em tempo real. A câmera filma o atleta, a visão computacional acha os pontos do corpo, compara com a pose de referência e mostra na tela o que ajustar, **enquanto o atleta ainda está posando**.
 
 | 📷 Câmera | 🦴 Pontos do corpo | 📐 Comparação | 🖥️ Na hora |
